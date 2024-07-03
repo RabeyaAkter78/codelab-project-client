@@ -6,7 +6,7 @@ import { router } from './Routes/Router/Router.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-  <div className='bg-neutral-100'>
+  <div className='bg-neutral-100 overflow-x-hidden'>
   <RouterProvider router={router} />
   </div>
   </React.StrictMode>,

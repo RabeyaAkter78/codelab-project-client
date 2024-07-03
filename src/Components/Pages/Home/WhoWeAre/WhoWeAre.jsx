@@ -3,7 +3,7 @@ import SectionTitle from "../../../Shared/SectionTitle/SectionTitle";
 
 const WhoWeAre = () => {
     return (
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-2  ">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-36 justify-around items-center mb-20">
             <div className="w-[470px] h-[355px] ">
                 <SectionTitle
                     heading={"Who We Are"}
