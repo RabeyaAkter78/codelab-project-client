@@ -8,8 +8,8 @@ const Navbar = () => {
     const navItems = [
         { name: 'Home', link: '/' },
         { name: 'Services', link: '/services' },
-        { name: 'Blog', link: '/blog' },
-        { name: 'About Us', link: '/about' }
+        { name: 'Blog',  },
+        { name: 'About Us',  }
     ];
 
     const handleClickedItem = (item) => {
